@@ -38,14 +38,6 @@ Portfolio archive for the DACON Log Security Risk Prediction AI competition. Thi
 `-- README.md
 ```
 
-## What Was Cleaned
-
-- Renamed mixed Korean notebook filenames into ordered portfolio notebooks.
-- Removed notebook cell outputs and Colab execution metadata before publishing.
-- Kept submission CSV files out of git because they are large generated artifacts.
-- Added a reusable `src/train_xgboost.py` script for the final modeling pipeline.
-- Added stable README images extracted from the original notebook outputs.
-
 ## Approach
 
 The competition data consists of log text and a risk level label. The final portfolio pipeline follows the notebook logic:
